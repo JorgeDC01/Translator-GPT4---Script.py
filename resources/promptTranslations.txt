@@ -1,0 +1,8 @@
+Puedes traducirme los siguientes literales que están en inglés a español y portugués? El formato de salida debe ser un archivo con un estilo csv en el que haya dos columnas, la primera spanish y la segunda portuguese. La lista de literales a traducir es la siguiente:
+You  have  to  change  the  requisites  for  the  financial  transaction  295481  located  in  sales
+Please  change  the  name  of  the  client  {0}  in  the  Pricing  tab
+{0}  Director  Manager  requested  {2}  information  about  transaction  {1}
+Failed  to  send  {0}
+Create  Welcome  Package  {0}
+  CDD  is  not  complete  for  {0}
+Contact  details  for  one  or  more  recipients  are  not  correct.

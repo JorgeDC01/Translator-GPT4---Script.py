@@ -1,0 +1,8 @@
+"spanish","portuguese"
+"Tienes que cambiar los requisitos para la transacción financiera 295481 ubicada en ventas","Você precisa alterar os requisitos para a transação financeira 295481 localizada em vendas"
+"Por favor cambia el nombre del cliente {0} en la pestaña de Precios","Por favor, altere o nome do cliente {0} na aba de Preços"
+"{0} Director Manager solicitó {2} información sobre la transacción {1}","{0} Diretor Gerente solicitou {2} informações sobre a transação {1}"
+"Fallo al enviar {0}","Falha ao enviar {0}"
+"Crea un Paquete de Bienvenida {0}","Crie um Pacote de Boas-Vindas {0}"
+"CDD no está completo para {0}","CDD não está completo para {0}"
+"Los detalles de contacto para uno o más destinatarios no son correctos.","Os detalhes de contato para um ou mais destinatários não estão corretos."
