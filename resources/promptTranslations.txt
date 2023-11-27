@@ -1,8 +1,11 @@
-Puedes traducirme los siguientes literales que están en inglés a español y portugués? El formato de salida debe ser un archivo con un estilo csv en el que haya dos columnas, la primera spanish y la segunda portuguese. La lista de literales a traducir es la siguiente:
-You  have  to  change  the  requisites  for  the  financial  transaction  295481  located  in  sales
-Please  change  the  name  of  the  client  {0}  in  the  Pricing  tab
-{0}  Director  Manager  requested  {2}  information  about  transaction  {1}
-Failed  to  send  {0}
-Create  Welcome  Package  {0}
-  CDD  is  not  complete  for  {0}
-Contact  details  for  one  or  more  recipients  are  not  correct.
+Traduce los siguientes literales que estan en ingles a portugues y español. Devuelveme solo el csv, sin ninguna explicacion. El formato de salida debe ser un archivo con un estilo csv en el que haya tres columnas, la primera english, la segunda portuguese y la tercera spanish. Aquellas traducciones que ya esten completas, no las traduzca. La lista de literales a traducir es la siguiente:english|portuguese|spanish
+Due date is before||
+My claimed task||
+My tasks||
+Currently you have no tasks||
+Currently no open communications are assigned to you||
+Currently no cases available||
+My sales cases||
+My team sales cases||
+All team task||
+My team tasks||
