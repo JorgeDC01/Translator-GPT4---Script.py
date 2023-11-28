@@ -1,6 +1,51 @@
 index|english|portuguese|spanish
-5| CDD is not complete for {0}|CDD nÃ£o estÃ¡ completo para {0}|CDD no estÃ¡ completo para {0}
-6|Contact details for one or more recipients are not correct.|Os detalhes de contato para um ou mais destinatÃ¡rios nÃ£o estÃ£o corretos.|Los detalles de contacto para uno o mÃ¡s destinatarios no son correctos.
-7|requiredAction active  {0}|aÃ§Ã£oRequerida ativa {0}|acciÃ³nRequerida activa {0}
-8|requiredAction on hold {0}|aÃ§Ã£oRequerida em espera {0}|acciÃ³nRequerida en espera {0}
-9|Due date is after|A data de vencimento Ã© apÃ³s|La fecha de vencimiento es despuÃ©s
+1666|Buyer|Comprador|Comprador
+1667|Buyer level|Nível do comprador|Nivel del comprador
+1668|Relation type|Tipo de relação|Tipo de relación
+1669|Buyer 360|Comprador 360|Comprador 360
+1670|Add subsidiary|Adicionar subsidiária|Añadir subsidiaria
+1671|Add parent|Adicionar pai|Añadir padre
+1672|Add information link|Adicionar link de informação|Añadir enlace de información
+1673|Change parent|Alterar pai|Cambiar padre
+1674|Change owner|Alterar proprietário|Cambiar propietario
+1675|Remove buyer|Remover comprador|Eliminar comprador
+1676|Show search|Mostrar pesquisa|Mostrar búsqueda
+1677|Hide search|Esconder pesquisa|Ocultar búsqueda
+1678|Allowed combination of fields to perform a search:|Combinação permitida de campos para realizar uma pesquisa:|Combinación permitida de campos para realizar una búsqueda:
+1679|External identifier type and External identifier number|Tipo de identificador externo e número do identificador externo|Tipo de identificador externo y número de identificador externo
+1680|Company registration number and Country|Número de registro da empresa e País|Número de registro de la empresa y País
+1681|VAT number number and Country|Número do IVA e País|Número de IVA y País
+1682|Name, Country, Region, Address and City(if enable)|Nome, País, Região, Endereço e Cidade (se habilitado)|Nombre, País, Región, Dirección y Ciudad (si está habilitado)
+1683|Country and Phone number|País e número de telefone|País y número de teléfono
+1684|Something went wrong, please try again later.|Algo deu errado, por favor tente novamente mais tarde.|Algo salió mal, por favor intente de nuevo más tarde.
+1685|Addresses|Endereços|Direcciones
+1686|Accepted SNA matches|SNA correspondências aceitas|SNA coincidencias aceptadas
+1687|Pending SNA matches|SNA correspondências pendentes|SNA coincidencias pendientes
+1688|CHECK BUYER MATCH|VERIFICAR CORRESPONDÊNCIA DO COMPRADOR|VERIFICAR COINCIDENCIA DEL COMPRADOR
+1689|Date (alert)|Data (alerta)|Fecha (alerta)
+1690|Organisation ID|ID da organização|ID de la organización
+1691|Organisation name|Nome da organização|Nombre de la organización
+1692|Coincidence match|Correspondência de coincidência|Coincidencia de coincidencia
+1693|Origin/target|Origem/destino|Origen/destino
+1694|Check match|Verificar correspondência|Verificar coincidencia
+1695|Compare the details of the matched buyer and accept or reject the relationship.|Compare os detalhes do comprador correspondente e aceite ou rejeite o relacionamento.|Compare los detalles del comprador coincidente y acepte o rechace la relación.
+1696|Coincidence type|Tipo de coincidência|Tipo de coincidencia
+1697|Coincidence value|Valor de coincidência|Valor de coincidencia
+1698|Organisation details|Detalhes da organização|Detalles de la organización
+1699|Type|Tipo|Tipo
+1700|Organisation value|Valor da organização|Valor de la organización
+1701|Company name|Nome da empresa|Nombre de la empresa
+1702|Address (REG)|Endereço (REG)|Dirección (REG)
+1703|Phone number|Número de telefone|Número de teléfono
+1704|Buyer registration number|Número de registro do comprador|Número de registro del comprador
+1705|Current admin(s)|Admin(s) atual(is)|Admin(s) actual(es)
+1707|REJECT|REJEITAR|RECHAZAR
+1709|Social security debts|Dívidas da segurança social|Deudas de la seguridad social
+1710|Reception date|Data de recepção|Fecha de recepción
+1711|Close date|Data de fechamento|Fecha de cierre
+1712|Trimester|Trimestre|Trimestre
+1714|Dispute|Disputa|Disputa
+1716|DD/MM/YYYY|DD/MM/AAAA|DD/MM/AAAA
+1719|There was an error saving the data|Houve um erro ao salvar os dados|Hubo un error al guardar los datos
+1720|External reports|Relatórios externos|Informes externos
+1721|Constant monitoring|Monitoramento constante|Monitoreo constante

@@ -1,6 +1,7 @@
 import pandas as pd
-import openai
+from openai import OpenAI
 import chardet
+import time
 
 
 # Function to detect the encoding of csv file
@@ -15,7 +16,7 @@ def detect_encoding(path):
 
 # Import CSV file 
 def ImportCSV(path, encoding):
-    print("### Import CSV function ###")
+    # print("### Import CSV function ###")
     try:
         df = pd.read_csv(path, delimiter="|", encoding=encoding)
         return df
@@ -48,7 +49,7 @@ def create_prompt(df, encoding):
     # Once we write the english data we want to be translated, we need to write the command at the beginning
     command_text = "Traduce los siguientes literales que estan en ingles a portugues y español. Devuelveme solo el csv, sin ninguna explicacion. El formato de salida debe ser un archivo con un estilo csv en el que haya cuatro columnas, la primera columna llamada index contiene los mismos indices de la consulta, la segunda es english, la tercera es portuguese y la cuarta es spanish. Aquellas traducciones que ya esten completas, no las traduzca. El separador tiene que ser |. La lista de literales a traducir es la siguiente:"
 
-    with open(PATH_PROMPTFILE_TXT, 'r+',encoding="utf-8") as file:
+    with open(PATH_PROMPTFILE_TXT, 'r+',encoding=encoding) as file:
         original_content = file.read()
         file.seek(0)
         file.write(command_text)
@@ -58,38 +59,25 @@ def create_prompt(df, encoding):
 
 
 
-# Function to do OpenAI API call 
+# Function that executes the OpenAI API call. Be careful if the openai Library gets updates. The way the call is done could be change.
 def openAI_API_call(encoding):
     print("\t ### OpenAI_API_call function ###")
-    
+
     with open(PATH_PROMPTFILE_TXT, "r",encoding=encoding) as file:
         print("\t ### Initializing the reading of the prompt file ###")
-        prompt = file.read()
+        prompt_ = file.read()
         file.close()
+
+    
     try:
         print("\t ### Initializing OpenAI API call ###")
+        chat_completion = client.chat.completions.create(model="gpt-4-0613", temperature=0.00000001, messages=[{"role": "user", "content": prompt_}])
 
-        response = openai.ChatCompletion.create(
-            model="gpt-4-0613",
-            temperature=0.00000001,
-            messages=[
-                {"role": "user", "content": prompt},
-            ]
-        )
-
-        if response and response.choices:
-            # return response.choices[0].message['content'].encode(encoding).decode(encoding)
-            return response.choices[0].message['content']
+        if chat_completion and chat_completion.choices:
+            return chat_completion.choices[0].message.content
         else:
             print("\t ### The API response is empty.")
             return 1
-    except openai.error.OpenAIError as e:
-        print(f"Error with comunicating with API {e}")
-        return 1
-    except Exception as e:
-        print(f"Unexpected Error: {e}")
-        return 1
-
     finally:
         print("\t ### API call completed ###")
 
@@ -98,7 +86,7 @@ def openAI_API_call(encoding):
 # Function that writes the GPT response into resources/GPTresponse.txt
 def save_raw_GPTresponse (response, encoding):
     print("\t ### Initializing raw response written into './resources/GPTresponse.txt' function ###")
-    with open("./resources/GPTresponse.txt", "w", encoding="utf-8") as file:
+    with open("./resources/GPTresponse.txt", "w", encoding=encoding) as file:
         file.write(response)
         file.close()
 
@@ -108,9 +96,7 @@ def save_raw_GPTresponse (response, encoding):
 def save_translations(df_aux, encoding):
     print("\t ### Initializing translations' UPDATE './resources/translations v5.csv' function ###")
     df_file = ImportCSV(PATH_TRANSLATION_CSV, encoding)
-    print(df_file.head(5))
-    print(df_aux.head(5))
-    # df_file[["english", "spanish", "portuguese"]] = df_aux[["english", "spanish", "portuguese"]]
+
     df_file.loc[df_aux.index, ['english', 'spanish', 'portuguese']] = df_aux[['english', 'spanish', 'portuguese']]
     
     df_file.to_csv(PATH_TRANSLATION_CSV, header = True, index=False, sep = '|', encoding=encoding)
@@ -120,24 +106,30 @@ def save_translations(df_aux, encoding):
 # This function is the kernel of the script.
 def translation_generator(df, encoding_csv):
     
-    batch_elements = 5 # Each API call returns 50 translations
+    batch_elements = 50 # Each API call returns 50 translations
     
-    # Boolean mask with conditions. We get the rows we want them to be translated
-    mask = (df['english'].isna()) | ((df['spanish'] == '') & (df['portuguese'] == ''))
+    mask = (df['english'].isna()) # Boolean mask with conditions. We get the rows we want them to be translated
     df_filtered = df[~mask]
+    mask = ((df['portuguese'].isna()) & (df['spanish'].isna()))
+    df_filtered2 = df_filtered[mask]
+    
+    total_rows = df_filtered2.shape[0] # Total correct rows in translations v5.csv file
 
-    total_rows = df_filtered.shape[0] # Total correct rows in translations v5.csv file
-
-    groups = [df_filtered[i:i+batch_elements] for i in range(0, total_rows, batch_elements)] # Contains "n" batches of "batch_elements" rows. n = number of API calls = number of prompts needed
-    df_with_translations = pd.DataFrame()
+    groups = [df_filtered2[i:i+batch_elements] for i in range(0, total_rows, batch_elements)] # Contains "n" batches of "batch_elements" rows. n = number of API calls = number of prompts needed
+    # df_with_translations = pd.DataFrame()
 
     i = 0
-    # For each batch
-    for index, group in enumerate(groups):  
-        print("")
-        print("### Iteration ", index, " ###")    
+    total_rows_translated = 0
+    total_execution_time = 0
 
-        if (i <= 1):      
+    for index, group in enumerate(groups):  # For each batch
+        print("")
+        print("#########################")
+        print("### Iteration ", index, " ###")    
+        print("#########################\n")
+
+        if (i <= 4):      
+            start_time = time.time()
             create_prompt(group, encoding_csv) # Create Prompt
             response = openAI_API_call(encoding_csv) # API call that returns the translations
             save_raw_GPTresponse(response, encoding_csv) # Save response into a GPTresponse.txt file
@@ -146,7 +138,19 @@ def translation_generator(df, encoding_csv):
             # df_with_translations = pd.concat([df_with_translations,df_aux], ignore_index=False) # Concat the aux dataframe into the total translations dataframe called "df_with_translations"
             
             save_translations(df_aux, encoding_csv) # Updates translations v5.csv with new translations generated
+
             i = i + 1
+            total_rows_translated += group.shape[0]
+
+            end_time = time.time()
+            iteration_time = end_time - start_time
+            total_execution_time += iteration_time
+
+            print("")
+            print("### Number of rows translated:", total_rows_translated)
+            print(f"### Iteration execution time: {iteration_time:.2f} seconds")
+            print(f"### Total execution time: {total_execution_time:.2f} seconds")
+            
         else:
             i = i + 1
             break
@@ -162,7 +166,7 @@ PATH_TRANSLATION_CSV = "./translations v5.csv" # File to be translated
 PATH_PROMPTFILE_TXT = "./resources/promptTranslations.txt" # File with the future prompt
 PATH_GPTresponse_TXT = "./resources/GPTresponse.txt" # File with the future OpenAI API response
 
-openai.api_key = "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"
+client = OpenAI(api_key="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")
 
 if __name__ == "__main__":
 

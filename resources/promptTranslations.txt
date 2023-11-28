@@ -1,7 +1,52 @@
-Traduce los siguientes literales que estan en ingles a portugues y espaÃ±ol. Devuelveme solo el csv, sin ninguna explicacion. El formato de salida debe ser un archivo con un estilo csv en el que haya cuatro columnas, la primera columna llamada index contiene los mismos indices de la consulta, la segunda es english, la tercera es portuguese y la cuarta es spanish. Aquellas traducciones que ya esten completas, no las traduzca. El separador tiene que ser |. La lista de literales a traducir es la siguiente:
+Traduce los siguientes literales que estan en ingles a portugues y español. Devuelveme solo el csv, sin ninguna explicacion. El formato de salida debe ser un archivo con un estilo csv en el que haya cuatro columnas, la primera columna llamada index contiene los mismos indices de la consulta, la segunda es english, la tercera es portuguese y la cuarta es spanish. Aquellas traducciones que ya esten completas, no las traduzca. El separador tiene que ser |. La lista de literales a traducir es la siguiente:
 index|english|portuguese|spanish
-5| CDD is not complete for {0}||
-6|Contact details for one or more recipients are not correct.||
-7|requiredAction active  {0}||
-8|requiredAction on hold {0}||
-9|Due date is after||
+1722|Receipt date||
+1723|Source rating||
+1724|Update reason||
+1725|Source id||
+1726|Source name||
+1727|Information report||
+1728|Uniform report||
+1729|Monitoring by||
+1730|Info source||
+1731|End date||
+1732|Buyer settings||
+1733|Group settings||
+1734|Negative payment||
+1735|Manual||
+1737|Review limit credit insurance||
+1738|Standard limit||
+1739|Refer||
+1741|Next review date||
+1742|Use manual||
+1743|Reject CLA||
+1744|Strategy class reason||
+1745|Reason||
+1746|Strategy class||
+1748|New cover note||
+1750|VIEW BUYER 360 HISTORY||
+1751|Select an update date/time from the selector to view the saved changed on that particular date/time.||
+1752|Add more review limits||
+1753|Next review date||
+1754|Use automatic settings||
+1755|Highest limit||
+1757|Reason for ABRP||
+1758|Suppressed until||
+1759|AUP results||
+1761|Total review limit||
+1762|Review limit bonding||
+1763|Review limit special product||
+1764|Review limit reinsurance||
+1765|GRL Total||
+1766|GRL credit insurance||
+1767|GRL bonding||
+1768|GRL special product||
+1769|GRL reinsurance||
+1770|GRL autocalculation||
+1771|ADD REVIEW LIMITS - BUYER STRATEGY||
+1772|Select one or more addtional review limits to be added to the buyer strategy.||
+1773|ADD REVIEW LIMITS - GROUP STRATEGY||
+1774|Select one or more addtional review limits to be added to the group strategy||
+1777|There was an error saving the data||
+1778|OK||
+1780|AUP Calculation results||
