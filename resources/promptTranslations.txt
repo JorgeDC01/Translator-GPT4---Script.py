@@ -1,11 +1,12 @@
-Traduce los siguientes literales que estan en ingles a portugues y español. Devuelveme solo el csv, sin ninguna explicacion. El formato de salida debe ser un archivo con un estilo csv en el que haya tres columnas, la primera english, la segunda portuguese y la tercera spanish. Aquellas traducciones que ya esten completas, no las traduzca. La lista de literales a traducir es la siguiente:english|portuguese|spanish
-Due date is before||
-My claimed task||
-My tasks||
-Currently you have no tasks||
-Currently no open communications are assigned to you||
-Currently no cases available||
-My sales cases||
-My team sales cases||
-All team task||
-My team tasks||
+Traduce los siguientes literales que estan en ingles a portugues y español. Devuelveme solo el csv, sin ninguna explicacion. El formato de salida debe ser un archivo con un estilo csv en el que haya cuatro columnas, la primera columna llamada index contiene los mismos indices de la consulta, la segunda es english, la tercera es portuguese y la cuarta es spanish. Aquellas traducciones que ya esten completas, no las traduzca. El separador tiene que ser |. La lista de literales a traducir es la siguiente:
+index|english|portuguese|spanish
+0|You have to change the requisites for the financial transaction 295481 located in sales||
+1|Please change the name of the client {0} in the Pricing tab||
+2|{0} Director Manager requested {2} information about transaction {1}||
+3|Failed to send {0}||
+4|Create Welcome Package {0}||
+5| CDD is not complete for {0}||
+6|Contact details for one or more recipients are not correct.||
+7|requiredAction active  {0}||
+8|requiredAction on hold {0}||
+9|Due date is after||
