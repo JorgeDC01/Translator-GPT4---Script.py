@@ -108,10 +108,11 @@ def save_raw_GPTresponse (response, encoding):
 def save_translations(df_aux, encoding):
     print("\t ### Initializing translations' UPDATE './resources/translations v5.csv' function ###")
     df_file = ImportCSV(PATH_TRANSLATION_CSV, encoding)
-    print(df_file.head(4))
-    print(df_aux.head(4))
-    df_file[["english", "spanish", "portuguese"]] = df_aux[["english", "spanish", "portuguese"]]
-
+    print(df_file.head(5))
+    print(df_aux.head(5))
+    # df_file[["english", "spanish", "portuguese"]] = df_aux[["english", "spanish", "portuguese"]]
+    df_file.loc[df_aux.index, ['english', 'spanish', 'portuguese']] = df_aux[['english', 'spanish', 'portuguese']]
+    
     df_file.to_csv(PATH_TRANSLATION_CSV, header = True, index=False, sep = '|', encoding=encoding)
 
 
@@ -119,7 +120,7 @@ def save_translations(df_aux, encoding):
 # This function is the kernel of the script.
 def translation_generator(df, encoding_csv):
     
-    batch_elements = 10 # Each API call returns 50 translations
+    batch_elements = 5 # Each API call returns 50 translations
     
     # Boolean mask with conditions. We get the rows we want them to be translated
     mask = (df['english'].isna()) | ((df['spanish'] == '') & (df['portuguese'] == ''))

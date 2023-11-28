@@ -1,14 +1,14 @@
 file|object|label|english|portuguese|spanish
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_reason_1|You have to change the requisites for the financial transaction 295481 located in sales||
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_reason_2|Please change the name of the client {0} in the Pricing tab||
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_reason_3|{0} Director Manager requested {2} information about transaction {1}||
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_description_1|Failed to send {0}||
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_description_2|Create Welcome Package {0}||
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_description_3| CDD is not complete for {0}||
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_requiredAction_1|Contact details for one or more recipients are not correct.||
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_requiredAction_2|requiredAction active  {0}||
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_requiredAction_3|requiredAction on hold {0}||
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_dueDateAfter|Due date is after||
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_reason_1|You have to change the requisites for the financial transaction 295481 located in sales|Você precisa alterar os requisitos para a transação financeira 295481 localizada em vendas|Tienes que cambiar los requisitos para la transacción financiera 295481 ubicada en ventas
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_reason_2|Please change the name of the client {0} in the Pricing tab|Por favor, altere o nome do cliente {0} na aba de Preços|Por favor, cambia el nombre del cliente {0} en la pestaña de Precios
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_reason_3|{0} Director Manager requested {2} information about transaction {1}|{0} Diretor Gerente solicitou {2} informações sobre a transação {1}|{0} Director Gerente solicitó {2} información sobre la transacción {1}
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_description_1|Failed to send {0}|Falha ao enviar {0}|Falló al enviar {0}
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_description_2|Create Welcome Package {0}|Crie o Pacote de Boas-Vindas {0}|Crea el Paquete de Bienvenida {0}
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_description_3| CDD is not complete for {0}|CDD não está completo para {0}|CDD no está completo para {0}
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_requiredAction_1|Contact details for one or more recipients are not correct.|Os detalhes de contato para um ou mais destinatários não estão corretos.|Los detalles de contacto para uno o más destinatarios no son correctos.
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_requiredAction_2|requiredAction active  {0}|açãoRequerida ativa {0}|acciónRequerida activa {0}
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_requiredAction_3|requiredAction on hold {0}|açãoRequerida em espera {0}|acciónRequerida en espera {0}
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_dueDateAfter|Due date is after|A data de vencimento é após|La fecha de vencimiento es después
 /jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_dueDateBefore|Due date is before||
 /jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_myClaimedTasks|My claimed task||
 /jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_myTasks|My tasks||
@@ -141,7 +141,7 @@ file|object|label|english|portuguese|spanish
 /jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_MULTI_SC_SAME_ORG_RSN|New Sales Case {0} is initiated on Organisation {1}. There is one or more active Sales Case or Policy on the same Organisation or a Related Organisation already.||
 /jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_OFFER_CREATION_ERR_DES|The offer creation failed and was deleted automatically.||
 /jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_MULTI_SC_SAME_ORG_DES|Multiple open Sales Cases on same organisation||
-/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_MULTI_SC_SAME_ORG_ACT|N/A||
+/jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_MULTI_SC_SAME_ORG_ACT|||
 /jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_CLI_REQUEST_DES|Your request for {2} and Prospect {5} is complete||
 /jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_CDD_OPEN_RSN|CDD is not completed within 10 days||
 /jet-composites/alerts/notifications-list/resources/nls/notifications-list-strings.ts|root.notifications-list|workplace_CDD_OPEN_DES|CDD is not completed within 10 days after initiating the CDD process for {2}, {1}||
@@ -1440,7 +1440,7 @@ file|object|label|english|portuguese|spanish
 /jet-composites/buyers/buyer-group-remove-relation/resources/nls/buyer-group-remove-relation-strings.ts|root.buyer-group-remove-relation|description|Remove the select organisation relationship(s)||
 /jet-composites/buyers/buyer-group-remove-relation/resources/nls/buyer-group-remove-relation-strings.ts|root.buyer-group-remove-relation|remark|Remark: One or more of the selected relationships exis of multiple relations between the same buyers. Select the relation(s) to remove||
 /jet-composites/buyers/buyer-group-remove-relation/resources/nls/buyer-group-remove-relation-strings.ts|root.buyer-group-remove-relation|note|Please notes: If risk relationship is removed and subsidiary has one or more related risk subsidiary(s),||
-/jet-composites/buyers/buyer-group-remove-relation/resources/nls/buyer-group-remove-relation-strings.ts|root.buyer-group-remove-relation|note2|a new group with subsidiary as ultimate parent will be created, with "automatic GRL calculation" on||
+/jet-composites/buyers/buyer-group-remove-relation/resources/nls/buyer-group-remove-relation-strings.ts|root.buyer-group-remove-relation|note2|"a new group with subsidiary as ultimate parent will be created, with ""automatic GRL calculation"" on"||
 /jet-composites/buyers/buyer-group-remove-relation/resources/nls/buyer-group-remove-relation-strings.ts|root.buyer-group-remove-relation|informationLink|Information link||
 /jet-composites/buyers/buyer-group-remove-relation/resources/nls/buyer-group-remove-relation-strings.ts|root.buyer-group-remove-relation|relation|relation||
 /jet-composites/buyers/buyer-group-remove-relation/resources/nls/buyer-group-remove-relation-strings.ts|root.buyer-group-remove-relation.buttons|cancel|Cancel||
@@ -1472,7 +1472,7 @@ file|object|label|english|portuguese|spanish
 /jet-composites/buyers/buyer-header/resources/nls/buyer-header-strings.ts|root.buyer-header.editOwnerDialog|cancel|CANCEL||CANCELAR
 /jet-composites/buyers/buyer-header/resources/nls/buyer-header-strings.ts|root.buyer-header.editOwnerDialog|save|SAVE||
 /jet-composites/buyers/buyer-header/resources/nls/buyer-header-strings.ts|root.buyer-header.editOwnerDialog|nonStandard|Non-standard||
-/jet-composites/buyers/buyer-header/resources/nls/buyer-header-strings.ts|root.buyer-header.editOwnerDialog|nonStandardTooltip|Non-standard owner flag set to "Yes": Owner NOT automatically removed in case main tradesector is changed and part of another group||
+/jet-composites/buyers/buyer-header/resources/nls/buyer-header-strings.ts|root.buyer-header.editOwnerDialog|nonStandardTooltip|"Non-standard owner flag set to ""Yes"": Owner NOT automatically removed in case main tradesector is changed and part of another group"||
 /jet-composites/buyers/buyer-header/resources/nls/buyer-header-strings.ts|root.buyer-header.notification|confirmMessage|Data saved correctly||Datos guardados correctamente
 /jet-composites/buyers/buyer-header/resources/nls/buyer-header-strings.ts|root.buyer-header.notification|deleteMessege|Date delete correctly||Fecha eliminada correctamente
 /jet-composites/buyers/buyer-header/resources/nls/buyer-header-strings.ts|root.buyer-header.notification|errorMessage|There was an error saving the data||
@@ -3002,7 +3002,7 @@ file|object|label|english|portuguese|spanish
 /jet-composites/rules/allocation-rules-filters/resources/nls/allocation-rules-filters-strings.ts|root.allocation-rules-filters.buttons|search|Search||
 /jet-composites/rules/allocation-rules-filters/resources/nls/allocation-rules-filters-strings.ts|root.allocation-rules-filters.tooltips|permanentOwnershipToolTip|Permanent ownership flag for selected buyer country group: If lorem ipsum dolor sit amet, etc.||
 /jet-composites/rules/allocation-rules-filters/resources/nls/allocation-rules-filters-strings.ts|root.allocation-rules-filters.confirmation|title|Confirmation||
-/jet-composites/rules/allocation-rules-filters/resources/nls/allocation-rules-filters-strings.ts|root.allocation-rules-filters.confirmation|message|Are you sure you want to change the permanent ownership for selected country group to "{option}" ?||
+/jet-composites/rules/allocation-rules-filters/resources/nls/allocation-rules-filters-strings.ts|root.allocation-rules-filters.confirmation|message|"Are you sure you want to change the permanent ownership for selected country group to ""{option}"" ?"||
 /jet-composites/rules/allocation-rules-filters/resources/nls/allocation-rules-filters-strings.ts|root.allocation-rules-filters.confirmation.buttons|cancel|Cancel||Cancelar
 /jet-composites/rules/allocation-rules-filters/resources/nls/allocation-rules-filters-strings.ts|root.allocation-rules-filters.confirmation.buttons|ok|Ok||
 /jet-composites/rules/allocation-rules-filters/resources/nls/allocation-rules-filters-strings.ts|root.allocation-rules-filters.messages|error|Error||Error
@@ -3033,7 +3033,7 @@ file|object|label|english|portuguese|spanish
 /jet-composites/rules/ownership-allocation-rules-dialog/resources/nls/ownership-allocation-rules-dialog-strings.ts|root.ownership-allocation-rules-dialog.buttons|delete|Delete||
 /jet-composites/rules/ownership-allocation-rules-dialog/resources/nls/ownership-allocation-rules-dialog-strings.ts|root.ownership-allocation-rules-dialog.messages|error|Error||Error
 /jet-composites/rules/ownership-allocation-rules-dialog/resources/nls/ownership-allocation-rules-dialog-strings.ts|root.ownership-allocation-rules-dialog.messages|saveError|There was an error in save buyer allocatinon rule||
-/jet-composites/rules/ownership-allocation-rules-dialog/resources/nls/ownership-allocation-rules-dialog-strings.ts|root.ownership-allocation-rules-dialog.messages|atLeastOneIfInput|At least one "If" section input must be filled||
+/jet-composites/rules/ownership-allocation-rules-dialog/resources/nls/ownership-allocation-rules-dialog-strings.ts|root.ownership-allocation-rules-dialog.messages|atLeastOneIfInput|"At least one ""If"" section input must be filled"||
 /jet-composites/rules/ownership-allocation-rules-dialog/resources/nls/ownership-allocation-rules-dialog-strings.ts|root.ownership-allocation-rules-dialog.delete|title|Delete confirmation||
 /jet-composites/rules/ownership-allocation-rules-dialog/resources/nls/ownership-allocation-rules-dialog-strings.ts|root.ownership-allocation-rules-dialog.delete|confirmation|Are you sure you want to delete the selected ownership allocation rule?||�Est� seguro de modificar el owner asignado al buyer?
 /jet-composites/rules/ownership-allocation-rules-dialog/resources/nls/ownership-allocation-rules-dialog-strings.ts|root.ownership-allocation-rules-dialog.delete|yes|Ok||
@@ -3086,7 +3086,7 @@ file|object|label|english|portuguese|spanish
 /jet-composites/rules/task-allocation-rules-dialog/resources/nls/task-allocation-rules-dialog-strings.ts|root.task-allocation-rules-dialog.buttons|delete|Delete||
 /jet-composites/rules/task-allocation-rules-dialog/resources/nls/task-allocation-rules-dialog-strings.ts|root.task-allocation-rules-dialog.messages|error|Error||Error
 /jet-composites/rules/task-allocation-rules-dialog/resources/nls/task-allocation-rules-dialog-strings.ts|root.task-allocation-rules-dialog.messages|saveError|There was an error in save buyer allocatinon rule||
-/jet-composites/rules/task-allocation-rules-dialog/resources/nls/task-allocation-rules-dialog-strings.ts|root.task-allocation-rules-dialog.messages|atLeastOneIfInput|At least one "If" section input must be filled||
+/jet-composites/rules/task-allocation-rules-dialog/resources/nls/task-allocation-rules-dialog-strings.ts|root.task-allocation-rules-dialog.messages|atLeastOneIfInput|"At least one ""If"" section input must be filled"||
 /jet-composites/rules/task-allocation-rules-dialog/resources/nls/task-allocation-rules-dialog-strings.ts|root.task-allocation-rules-dialog.delete|title|Delete confirmation||
 /jet-composites/rules/task-allocation-rules-dialog/resources/nls/task-allocation-rules-dialog-strings.ts|root.task-allocation-rules-dialog.delete|confirmation|Are you sure you want to delete the selected ownership allocation rule?||�Est� seguro de modificar el owner asignado al buyer?
 /jet-composites/rules/task-allocation-rules-dialog/resources/nls/task-allocation-rules-dialog-strings.ts|root.task-allocation-rules-dialog.delete|yes|Ok||
@@ -3363,7 +3363,7 @@ file|object|label|english|portuguese|spanish
 /jet-composites/tasks/review-related-buyer-task-popup/resources/nls/review-related-buyer-task-popup-strings.ts|root.review-related-buyer-task-popup.closeTaskTable.columnsTitle|assigneeId|Assignee ID||
 /jet-composites/tasks/review-related-buyer-task-popup/resources/nls/review-related-buyer-task-popup-strings.ts|root.review-related-buyer-task-popup.sendAUPTable|title|Application tasks on buyer||
 /jet-composites/tasks/review-related-buyer-task-popup/resources/nls/review-related-buyer-task-popup-strings.ts|root.review-related-buyer-task-popup.sendAUPTable|sendToAUP|Send to AUP||
-/jet-composites/tasks/review-related-buyer-task-popup/resources/nls/review-related-buyer-task-popup-strings.ts|root.review-related-buyer-task-popup.sendAUPTable|toolTipMessage|Excluding tasks with CLD status "draft" (greyed out)||
+/jet-composites/tasks/review-related-buyer-task-popup/resources/nls/review-related-buyer-task-popup-strings.ts|root.review-related-buyer-task-popup.sendAUPTable|toolTipMessage|"Excluding tasks with CLD status ""draft"" (greyed out)"||
 /jet-composites/tasks/review-related-buyer-task-popup/resources/nls/review-related-buyer-task-popup-strings.ts|root.review-related-buyer-task-popup.sendAUPTable.columnsTitle|caseType|Case type||
 /jet-composites/tasks/review-related-buyer-task-popup/resources/nls/review-related-buyer-task-popup-strings.ts|root.review-related-buyer-task-popup.sendAUPTable.columnsTitle|creationReason|Creation reason||
 /jet-composites/tasks/review-related-buyer-task-popup/resources/nls/review-related-buyer-task-popup-strings.ts|root.review-related-buyer-task-popup.sendAUPTable.columnsTitle|caseCreationDate|Case creation date||
@@ -4026,9 +4026,9 @@ file|object|label|english|portuguese|spanish
 /jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup.dialogTitles|buyer|Select buyer countries||
 /jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup.dialogTitles|customer|Select customer countries||
 /jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup.dialogTitles|readonly|View {subType} countries||
-/jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup|listOfCountriesFor|List of countries for "{name}"||
+/jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup|listOfCountriesFor|"List of countries for ""{name}"""||
 /jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup|preSelection|Pre-selection:||
-/jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup.preSelectionValues|none|None||
+/jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup.preSelectionValues|none|||
 /jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup.preSelectionValues|all|All||Todo
 /jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup.preSelectionValues|allExcludingRestricted|All excl restricted||
 /jet-composites/underwriting/uw-governance-select-countries-popup/resources/nls/uw-governance-select-countries-popup-strings.ts|root.uw-governance-select-countries-popup.preSelectionValues|allExcludingOffCover|All excl of cover||

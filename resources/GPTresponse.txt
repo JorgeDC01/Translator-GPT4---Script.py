@@ -1,10 +1,5 @@
 index|english|portuguese|spanish
-0|You have to change the requisites for the financial transaction 295481 located in sales|Você precisa alterar os requisitos para a transação financeira 295481 localizada em vendas|Tienes que cambiar los requisitos para la transacción financiera 295481 ubicada en ventas
-1|Please change the name of the client {0} in the Pricing tab|Por favor, altere o nome do cliente {0} na aba de Preços|Por favor, cambia el nombre del cliente {0} en la pestaña de Precios
-2|{0} Director Manager requested {2} information about transaction {1}|{0} Diretor Gerente solicitou {2} informações sobre a transação {1}|{0} Director Gerente solicitó {2} información sobre la transacción {1}
-3|Failed to send {0}|Falha ao enviar {0}|Falló al enviar {0}
-4|Create Welcome Package {0}|Criar Pacote de Boas-Vindas {0}|Crear Paquete de Bienvenida {0}
-5| CDD is not complete for {0}| CDD não está completo para {0}| CDD no está completo para {0}
+5| CDD is not complete for {0}|CDD não está completo para {0}|CDD no está completo para {0}
 6|Contact details for one or more recipients are not correct.|Os detalhes de contato para um ou mais destinatários não estão corretos.|Los detalles de contacto para uno o más destinatarios no son correctos.
 7|requiredAction active  {0}|açãoRequerida ativa {0}|acciónRequerida activa {0}
 8|requiredAction on hold {0}|açãoRequerida em espera {0}|acciónRequerida en espera {0}
