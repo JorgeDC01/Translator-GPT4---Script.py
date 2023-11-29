@@ -128,7 +128,7 @@ def translation_generator(df, encoding_csv):
         print("### Iteration ", index, " ###")    
         print("#########################\n")
 
-        if (i <= 4):      
+        if (i <= 0):      
             start_time = time.time()
             create_prompt(group, encoding_csv) # Create Prompt
             response = openAI_API_call(encoding_csv) # API call that returns the translations
@@ -166,8 +166,8 @@ PATH_TRANSLATION_CSV = "./translations v5.csv" # File to be translated
 PATH_PROMPTFILE_TXT = "./resources/promptTranslations.txt" # File with the future prompt
 PATH_GPTresponse_TXT = "./resources/GPTresponse.txt" # File with the future OpenAI API response
 
-client = OpenAI(api_key="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")
-
+# client = OpenAI(api_key="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") # API de carlos
+client = OpenAI(api_key="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")
 if __name__ == "__main__":
 
     print("### MAIN ###")

@@ -1721,65 +1721,65 @@ file|object|label|english|portuguese|spanish
 /jet-composites/buyers/buyer-social-security-debts/resources/nls/buyer-social-security-debts-strings.ts|root.buyer-social-security-debts.messages|error|There was an error saving the data|Houve um erro ao salvar os dados|Hubo un error al guardar los datos
 /jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|externalReports|External reports|Relatórios externos|Informes externos
 /jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|constantMonitoring|Constant monitoring|Monitoramento constante|Monitoreo constante
-/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|receiptDate|Receipt date||
-/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|sourceRating|Source rating||
-/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|updateReason|Update reason||
-/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|sourceId|Source id||
-/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|sourceName|Source name||
-/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|informationReport|Information report||
-/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|uniformReport|Uniform report||
-/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|monitoringBy|Monitoring by||
-/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|infoSource|Info source||
-/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|endDate|End date||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|buyerSettings|Buyer settings||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|groupSettings|Group settings||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|negativePayment|Negative payment||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|manual|Manual||
+/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|receiptDate|Receipt date|Data de recebimento|Fecha de recibo
+/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|sourceRating|Source rating|Classificação da fonte|Calificación de la fuente
+/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|updateReason|Update reason|Motivo da atualização|Razón de la actualización
+/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|sourceId|Source id|Id da fonte|Id de la fuente
+/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|sourceName|Source name|Nome da fonte|Nombre de la fuente
+/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|informationReport|Information report|Relatório de informação|Informe de información
+/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|uniformReport|Uniform report|Relatório uniforme|Informe uniforme
+/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|monitoringBy|Monitoring by|Monitorado por|Monitoreado por
+/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|infoSource|Info source|Fonte de informação|Fuente de información
+/jet-composites/buyers/buyer-source-info/resources/nls/buyer-source-info-strings.ts|root.buyer-source-info|endDate|End date|Data final|Fecha final
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|buyerSettings|Buyer settings|Configurações do comprador|Configuraciones del comprador
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|groupSettings|Group settings|Configurações do grupo|Configuraciones del grupo
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|negativePayment|Negative payment|Pagamento negativo|Pago negativo
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|manual|Manual|Manual|Manual
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|automatic|Automatic||Automático
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reviewLimitCredit|Review limit credit insurance||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|standardLimit|Standard limit||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|refer|Refer||
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reviewLimitCredit|Review limit credit insurance|Revisar limite do seguro de crédito|Revisar límite de seguro de crédito
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|standardLimit|Standard limit|Limite padrão|Límite estándar
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|refer|Refer|Referir|Referir
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|decisionCodes|Decision codes||Códigos de decisión
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|nextReviewDate|Next review date||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|useManual|Use manual||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|rejectCLA|Reject CLA||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reasonStrategyClass|Strategy class reason||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reason|Reason||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|strategyClass|Strategy class||
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|nextReviewDate|Next review date|Próxima data de revisão|Próxima fecha de revisión
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|useManual|Use manual|Use manual|Usar manual
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|rejectCLA|Reject CLA|Rejeitar CLA|Rechazar CLA
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reasonStrategyClass|Strategy class reason|Motivo da classe de estratégia|Razón de la clase de estrategia
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reason|Reason|Motivo|Razón
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|strategyClass|Strategy class|Classe de estratégia|Clase de estrategia
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|automaticSUpdate|Automatic strategy update||Actualización automática de la estrategia
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|newCoverNote|New cover note||
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|newCoverNote|New cover note|Nova nota de cobertura|Nueva nota de cobertura
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|addLimits|Add limits||Añadir coberturas
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|viewBuyer360History|VIEW BUYER 360 HISTORY||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|selectDataTime|Select an update date/time from the selector to view the saved changed on that particular date/time.||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|addMoreReview|Add more review limits||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|nextReview|Next review date||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|useAutomatic|Use automatic settings||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|highestLimit|Highest limit||
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|viewBuyer360History|VIEW BUYER 360 HISTORY|VER HISTÓRICO DO COMPRADOR 360|VER HISTORIAL DEL COMPRADOR 360
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|selectDataTime|Select an update date/time from the selector to view the saved changed on that particular date/time.|Selecione uma data/hora de atualização do seletor para visualizar as alterações salvas nessa data/hora específica.|Seleccione una fecha/hora de actualización del selector para ver los cambios guardados en esa fecha/hora en particular.
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|addMoreReview|Add more review limits|Adicionar mais limites de revisão|Añadir más límites de revisión
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|nextReview|Next review date|Próxima data de revisão|Próxima fecha de revisión
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|useAutomatic|Use automatic settings|Use configurações automáticas|Usar configuraciones automáticas
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|highestLimit|Highest limit|Limite máximo|Límite máximo
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|ABRPallowed|ABRP allowed|ABRP permitido|ABRP permitido
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reasonABRP|Reason for ABRP||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|suppressedUntil|Suppressed until||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|aupResults|AUP results||
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reasonABRP|Reason for ABRP|Motivo para ABRP|Razón para ABRP
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|suppressedUntil|Suppressed until|Suprimido até|Suprimido hasta
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|aupResults|AUP results|Resultados AUP|Resultados AUP
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|close|Close||Cerrar
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reviewLimitTotal|Total review limit||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reviewLimitBoading|Review limit bonding||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reviewLimitSpecial|Review limit special product||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reviewLimitReinsurance|Review limit reinsurance||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLTotal|GRL Total||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLCreditInsurance|GRL credit insurance||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLBonding|GRL bonding||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLSpecialP|GRL special product||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLReinsurance|GRL reinsurance||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLAutocalculation|GRL autocalculation||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.addReviewLimitsDialog|title|ADD REVIEW LIMITS - BUYER STRATEGY||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.addReviewLimitsDialog|description|Select one or more addtional review limits to be added to the buyer strategy.||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.addReviewLimitsGroupDialog|title|ADD REVIEW LIMITS - GROUP STRATEGY||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.addReviewLimitsGroupDialog|description|Select one or more addtional review limits to be added to the group strategy||
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reviewLimitTotal|Total review limit|Limite total de revisão|Límite total de revisión
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reviewLimitBoading|Review limit bonding|Limite de revisão de vinculação|Límite de revisión de vinculación
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reviewLimitSpecial|Review limit special product|Limite de revisão de produto especial|Límite de revisión de producto especial
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|reviewLimitReinsurance|Review limit reinsurance|Limite de revisão de resseguro|Límite de revisión de reaseguro
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLTotal|GRL Total|GRL Total|GRL Total
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLCreditInsurance|GRL credit insurance|Seguro de crédito GRL|Seguro de crédito GRL
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLBonding|GRL bonding|Vinculação GRL|Vinculación GRL
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLSpecialP|GRL special product|Produto especial GRL|Producto especial GRL
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLReinsurance|GRL reinsurance|Resseguro GRL|Reaseguro GRL
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy|GRLAutocalculation|GRL autocalculation|Autocálculo GRL|Autocálculo GRL
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.addReviewLimitsDialog|title|ADD REVIEW LIMITS - BUYER STRATEGY|ADICIONAR LIMITES DE REVISÃO - ESTRATÉGIA DO COMPRADOR|AÑADIR LÍMITES DE REVISIÓN - ESTRATEGIA DEL COMPRADOR
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.addReviewLimitsDialog|description|Select one or more addtional review limits to be added to the buyer strategy.|Selecione um ou mais limites de revisão adicionais para serem adicionados à estratégia do comprador.|Seleccione uno o más límites de revisión adicionales para añadir a la estrategia del comprador.
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.addReviewLimitsGroupDialog|title|ADD REVIEW LIMITS - GROUP STRATEGY|ADICIONAR LIMITES DE REVISÃO - ESTRATÉGIA DO GRUPO|AÑADIR LÍMITES DE REVISIÓN - ESTRATEGIA DEL GRUPO
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.addReviewLimitsGroupDialog|description|Select one or more addtional review limits to be added to the group strategy|Selecione um ou mais limites de revisão adicionais para serem adicionados à estratégia do grupo|Seleccione uno o más límites de revisión adicionales para añadir a la estrategia del grupo
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.notification|confirm|Data saved correctly||Datos guardados correctamente
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.notification|delete|Date delete correctly||Fecha eliminada correctamente
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.notification|error|There was an error saving the data||
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.buttons|ok|OK||
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.notification|error|There was an error saving the data|Houve um erro ao salvar os dados|Hubo un error al guardar los datos
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.buttons|ok|OK|OK|OK
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.buttons|cancel|CANCEL||CANCELAR
-/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.aupResultsDialog|title|AUP Calculation results||
+/jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.aupResultsDialog|title|AUP Calculation results|Resultados do cálculo AUP|Resultados del cálculo AUP
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.aupResultsDialog|description|Please find below the AUP calculation reuslts per AUP calculation with the most recent AUP calculation date.||
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.aupResultsDialog.resultsTableLabels|aup_calculation_date|AUP calculation date||
 /jet-composites/buyers/buyer-strategy/resources/nls/buyer-strategy-strings.ts|root.buyer-strategy.aupResultsDialog.resultsTableLabels|buyer_def_sl|Buyer def. SL||
