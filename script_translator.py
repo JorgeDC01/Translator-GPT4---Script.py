@@ -106,7 +106,6 @@ def save_translations(df_aux, encoding):
 # This function is the kernel of the script.
 def translation_generator(df, encoding_csv):
     
-    batch_elements = 50 # Each API call returns 50 translations
     
     mask = (df['english'].isna()) # Boolean mask with conditions. We get the rows we want them to be translated
     df_filtered = df[~mask]
@@ -115,7 +114,7 @@ def translation_generator(df, encoding_csv):
     
     total_rows = df_filtered2.shape[0] # Total correct rows in translations v5.csv file
 
-    groups = [df_filtered2[i:i+batch_elements] for i in range(0, total_rows, batch_elements)] # Contains "n" batches of "batch_elements" rows. n = number of API calls = number of prompts needed
+    groups = [df_filtered2[i:i+BATCH_ELEMENTS_PARAM] for i in range(0, total_rows, BATCH_ELEMENTS_PARAM)] # Contains "n" batches of "batch_elements" rows. n = number of API calls = number of prompts needed
     # df_with_translations = pd.DataFrame()
 
     i = 0
@@ -128,7 +127,7 @@ def translation_generator(df, encoding_csv):
         print("### Iteration ", index, " ###")    
         print("#########################\n")
 
-        if (i <= 4):      
+        if (i < N_GROUPS_PROCESSED):      
             start_time = time.time()
             create_prompt(group, encoding_csv) # Create Prompt
             response = openAI_API_call(encoding_csv) # API call that returns the translations
@@ -165,6 +164,8 @@ def translation_generator(df, encoding_csv):
 PATH_TRANSLATION_CSV = "./translations v5.csv" # File to be translated
 PATH_PROMPTFILE_TXT = "./resources/promptTranslations.txt" # File with the future prompt
 PATH_GPTresponse_TXT = "./resources/GPTresponse.txt" # File with the future OpenAI API response
+BATCH_ELEMENTS_PARAM = 50
+N_GROUPS_PROCESSED = 4
 
 api_key = os.environ.get('OPENAI_API_KEY')
 client = OpenAI(api_key=api_key)
