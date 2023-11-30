@@ -10,8 +10,9 @@ El proceso simplificado del script es el siguiente:
 * Primero, se lee el archivo "csv" con los datos. El path de este archivo se encuentra en la variable PATH_TRANSLATION_CSV.
 * En la función "translation_generator", se crean grupos de literales en inglés a traducir. El numero de elementos de cada grupo depende de la variable global "BATCH_ELEMENTS_PARAM" (por defecto, 50).
   Eso significa que cada llamada a la API devuelve la traducción de como mucho 50 filas del "csv". Además, estos grupos no contienen las filas que ya están traducidas.
-  El prompt que se enviará por cada grupo a la API se almacena en el archivo "./resources/promptTranslations.txt".
+  El prompt que se enviará por cada grupo a la API se escribe en un archivo "./resources/promptTranslations.txt".
   La respuesta del modelo generativo para cada grupo se escribe en un archivo llamado "./resources/GPTresponse.txt".
+  La función de ambos archivos es para testear el script. 
 * Por último, se añaden las traducciones al fichero "translations v5.csv".
 
 ## Parámetros del script importantes
