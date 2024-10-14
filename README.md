@@ -1,64 +1,67 @@
 # Translator_GenerativeModel
 
-## Resumen
-Este es un script que tiene como objetivo resolver una tarea concreta sobre un archivo "translations v5.csv". Este archivo tiene 3 columnas involucradas en la tarea: [english,portuguese,spanish].
-La idea es traducir aquellos literales de la columna "english" en "portuguese" y "spanish". Aquellas filas que ya estén traducidas se mantienen intactas.
-Para resolver las traducciones, se realizan llamadas a la API de OpenAI y se necesita una API_KEY con un plan de pago. El modelo generativo elegido por defecto es gpt-4-0613, el cual ofrece una mayor calidad de traducción. 
-Cuando se hace una llamada a la API, se utiliza un prompt. En este prompt, se insertan los literales en inglés mencionados anteriormente. 
+## Summary
+This script aims to address a specific task involving a file named "translations v5.csv". This file contains three columns relevant to the task: [english, portuguese, spanish]. The goal is to translate the literals in the "english" column into "portuguese" and "spanish". Rows that are already translated remain unchanged.
 
-El proceso simplificado del script es el siguiente:
-* Primero, se lee el archivo "csv" con los datos. El path de este archivo se encuentra en la variable PATH_TRANSLATION_CSV.
-* En la función "translation_generator", se crean grupos de literales en inglés a traducir. El numero de elementos de cada grupo depende de la variable global "BATCH_ELEMENTS_PARAM" (por defecto, 50).
-  Eso significa que cada llamada a la API devuelve la traducción de como mucho 50 filas del "csv". Además, estos grupos no contienen las filas que ya están traducidas.
-  El prompt que se enviará por cada grupo a la API se escribe en un archivo "./resources/promptTranslations.txt".
-  La respuesta del modelo generativo para cada grupo se escribe en un archivo llamado "./resources/GPTresponse.txt".
-  La función de ambos archivos es para testear el script. 
-* Por último, se añaden las traducciones al fichero "translations v5.csv".
+To accomplish the translations, the script makes calls to the OpenAI API, requiring an API_KEY with a paid plan. The default generative model used is **gpt-4-0613**, which provides higher translation quality. When calling the API, a prompt is constructed that includes the English literals mentioned earlier.
 
-## Parámetros del script importantes
-- El PATH del archivo csv donde se encuentran los datos de entrada se puede modificar en la variable global "PATH_TRANSLATION_CSV".
-- El número de traducciones por llamada a la API se puede modificar en la variable global "BATCH_ELEMENTS_PARAM". En el script, por defecto toma el valor 50. No es recomendable poner un valor alto porque el modelo puede no devolver bien la respuesta.
-- El número de grupos de 50 literales a traducir se puede modificar en la variable global "N_GROUPS_PROCESSED". El número de grupos de literales definidos a partir del archivo "translations v5.csv" puede ser muy grande si hay muchos datos en él.
+The simplified process of the script is as follows:
+- First, the CSV file with the data is read. The path to this file is stored in the variable **PATH_TRANSLATION_CSV**.
+- In the **"translation_generator"** function, groups of English literals to be translated are created. The number of elements in each group depends on the global variable **BATCH_ELEMENTS_PARAM** (default value is 50). This means that each API call returns translations for up to 50 rows from the CSV. Additionally, these groups exclude any rows that are already translated. 
+- The prompt sent for each group to the API is written to a file named **"./resources/promptTranslations.txt"**. The generative model's response for each group is written to **"./resources/GPTresponse.txt"**. These files are useful for testing the script.
+- Finally, the translations are added back to the **"translations v5.csv"** file.
 
-## Ejecución del script
-Es un requisito indispensable tener python instalado y las librerías necesarias: openai, chardet. 
-Para instalarlas:
-`pip install openai`
-`pip install chardet`
+## Important Script Parameters
+- The **PATH** of the CSV file containing the input data can be modified in the global variable **PATH_TRANSLATION_CSV**.
+- The number of translations per API call can be adjusted in the global variable **BATCH_ELEMENTS_PARAM**. By default, this is set to 50. It is not advisable to use a higher value, as the model may not return accurate responses.
+- The number of groups of 50 literals to be translated can be changed in the global variable **N_GROUPS_PROCESSED**. The total number of groups derived from the "translations v5.csv" file can be substantial if there is a lot of data.
 
-Es un requisito indispensable configurar una variable de entorno llamada "OPENAI_API_KEY" que tenga como contenido tu API KEY.
+## Running the Script
+It is essential to have Python installed along with the necessary libraries: **openai** and **chardet**. To install them, run:
+```bash
+pip install openai
+pip install chardet
 
-La ejecución del script se realiza de esta forma: `python .\script_translator.py`
+Additionally, you must configure an environment variable named "OPENAI_API_KEY" with your API KEY.
 
-## Ejemplo de ejecución  
-    #########################  
-    ### Iteration  0  ###  
-    #########################  
-  
-     ### Create_prompt function ###  
-     ### OpenAI_API_call function ###  
-     ### Initializing the reading of the prompt file ###  
-     ### Initializing OpenAI API call ###  
-     ### API call completed ###  
-     ### Initializing raw response written into './resources/GPTresponse.txt' function ###  
-     ### Initializing translations' UPDATE './resources/translations v5.csv' function ###  
+The script can be executed with the following command:
+  ```bash
+  python ./script_translator.py
+  ```
+## Conclusion
+This script provides a streamlined approach to translating text using OpenAI's powerful language model while managing input and output via CSV files. It effectively ensures that already translated texts remain intact while processing new translations in batches.
 
-    ### Number of rows translated: 50 ###  
-    ### Iteration execution time: 56.85 seconds ###  
-    ### Total execution time: 56.85 seconds ###  
+## Example Output
 
-    #########################  
-    ### Iteration  1  ###  
-    #########################  
+```bash
+#########################
+### Iteration  0  ###
+#########################
 
-     ### Create_prompt function ###  
-     ### OpenAI_API_call function ###  
-     ### Initializing the reading of the prompt file ###  
-     ### Initializing OpenAI API call ###  
-     ### API call completed ###  
-     ### Initializing raw response written into './resources/GPTresponse.txt' function ###  
-     ### Initializing translations' UPDATE './resources/translations v5.csv' function ###  
-    
-    ### Number of rows translated: 100 ###  
-    ### Iteration execution time: 73.47 seconds ###  
-    ### Total execution time: 130.32 seconds ###  
+ ### Create_prompt function ###
+ ### OpenAI_API_call function ###
+ ### Initializing the reading of the prompt file ###
+ ### Initializing OpenAI API call ###
+ ### API call completed ###
+ ### Initializing raw response written into './resources/GPTresponse.txt' function ###
+ ### Initializing translations' UPDATE './resources/translations v5.csv' function ###
+
+### Number of rows translated: 50 ###
+### Iteration execution time: 56.85 seconds ###
+### Total execution time: 56.85 seconds ###
+
+#########################
+### Iteration  1  ###
+#########################
+
+ ### Create_prompt function ###
+ ### OpenAI_API_call function ###
+ ### Initializing the reading of the prompt file ###
+ ### Initializing OpenAI API call ###
+ ### API call completed ###
+ ### Initializing raw response written into './resources/GPTresponse.txt' function ###
+ ### Initializing translations' UPDATE './resources/translations v5.csv' function ###
+
+### Number of rows translated: 100 ###
+### Iteration execution time: 73.47 seconds ###
+### Total execution time: 130.32 seconds ###
